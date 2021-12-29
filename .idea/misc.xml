@@ -3,15 +3,64 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/Dell/AndroidStudioProjects/NiftyTraveLGuide/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
-        <entry key="..\:/Users/Dell/AndroidStudioProjects/NiftyTraveLGuide/app/src/main/res/menu/bottom_nav_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/NiftyTravelGuide/app/src/main/res/drawable-v24/add.xml" value="0.18125" />
+        <entry key="..\:/NiftyTravelGuide/app/src/main/res/drawable-v24/buttonbg.xml" value="0.171875" />
+        <entry key="..\:/NiftyTravelGuide/app/src/main/res/drawable-v24/ic_account_circle_black_24dp.xml" value="0.171875" />
+        <entry key="..\:/NiftyTravelGuide/app/src/main/res/drawable-v24/ic_baseline_favorite_24.xml" value="0.171875" />
+        <entry key="..\:/NiftyTravelGuide/app/src/main/res/drawable-v24/ic_baseline_send_24_grey.xml" value="0.171875" />
+        <entry key="..\:/NiftyTravelGuide/app/src/main/res/drawable-v24/search.xml" value="0.1625" />
+        <entry key="..\:/NiftyTravelGuide/app/src/main/res/drawable/background_left_receiver.xml" value="0.16510416666666666" />
+        <entry key="..\:/NiftyTravelGuide/app/src/main/res/drawable/background_right_sender.xml" value="0.16510416666666666" />
+        <entry key="..\:/NiftyTravelGuide/app/src/main/res/drawable/ic_baseline_send_24.xml" value="0.17314814814814813" />
+        <entry key="..\:/NiftyTravelGuide/app/src/main/res/drawable/progress.xml" value="0.22552083333333334" />
+        <entry key="..\:/NiftyTravelGuide/app/src/main/res/layout/activity_chat.xml" value="0.29775280898876405" />
+        <entry key="..\:/NiftyTravelGuide/app/src/main/res/layout/activity_chatt.xml" value="0.22784810126582278" />
+        <entry key="..\:/NiftyTravelGuide/app/src/main/res/layout/activity_login.xml" value="0.1" />
+        <entry key="..\:/NiftyTravelGuide/app/src/main/res/layout/activity_main.xml" value="0.10842105263157895" />
+        <entry key="..\:/NiftyTravelGuide/app/src/main/res/layout/activity_register.xml" value="0.10842105263157895" />
+        <entry key="..\:/NiftyTravelGuide/app/src/main/res/layout/fragment_bus_details.xml" value="0.17404898384575299" />
+        <entry key="..\:/NiftyTravelGuide/app/src/main/res/layout/fragment_dirver.xml" value="0.17404898384575299" />
+        <entry key="..\:/NiftyTravelGuide/app/src/main/res/layout/fragment_edit.xml" value="0.28804347826086957" />
+        <entry key="..\:/NiftyTravelGuide/app/src/main/res/layout/fragment_home.xml" value="0.11055276381909548" />
+        <entry key="..\:/NiftyTravelGuide/app/src/main/res/layout/fragment_maps.xml" value="0.12140871177015755" />
+        <entry key="..\:/NiftyTravelGuide/app/src/main/res/layout/fragment_profile.xml" value="0.22" />
+        <entry key="..\:/NiftyTravelGuide/app/src/main/res/layout/fragment_weather.xml" value="0.22" />
+        <entry key="..\:/NiftyTravelGuide/app/src/main/res/layout/layout_air.xml" value="0.18" />
+        <entry key="..\:/NiftyTravelGuide/app/src/main/res/layout/layout_driver.xml" value="0.18" />
+        <entry key="..\:/NiftyTravelGuide/app/src/main/res/layout/row_chat_left.xml" value="0.226215644820296" />
+        <entry key="..\:/NiftyTravelGuide/app/src/main/res/layout/row_chat_remove.xml" value="0.1" />
+        <entry key="..\:/NiftyTravelGuide/app/src/main/res/layout/row_chat_right.xml" value="0.226215644820296" />
+        <entry key="..\:/NiftyTravelGuide/app/src/main/res/menu/bottom_nav_menu.xml" value="0.40194174757281553" />
+        <entry key="..\:/NiftyTravelGuide/app/src/main/res/menu/menu.xml" value="0.6368932038834951" />
+        <entry key="..\:/Publicc/app/src/main/res/drawable/bg_bottom.xml" value="0.22135416666666666" />
+        <entry key="..\:/Publicc/app/src/main/res/drawable/bg_button_open_galery.xml" value="0.22552083333333334" />
+        <entry key="..\:/Publicc/app/src/main/res/font/text_me_one.xml" value="0.11574074074074074" />
+        <entry key="..\:/Publicc/app/src/main/res/layout/activity_login.xml" value="0.2" />
+        <entry key="..\:/Publicc/app/src/main/res/layout/activity_register.xml" value="0.1" />
+        <entry key="..\:/Publicc/app/src/main/res/layout/fragment_air.xml" value="0.12048192771084337" />
+        <entry key="..\:/Publicc/app/src/main/res/layout/fragment_bus_details.xml" value="0.2" />
+        <entry key="..\:/Publicc/app/src/main/res/layout/fragment_dashboard.xml" value="0.17695473251028807" />
+        <entry key="..\:/Publicc/app/src/main/res/layout/fragment_help.xml" value="0.12048192771084337" />
+        <entry key="..\:/Publicc/app/src/main/res/layout/fragment_home.xml" value="0.25" />
+        <entry key="..\:/Publicc/app/src/main/res/layout/fragment_hotel.xml" value="0.1" />
+        <entry key="..\:/Publicc/app/src/main/res/layout/fragment_profile.xml" value="0.1" />
+        <entry key="..\:/Publicc/app/src/main/res/layout/fragment_tourist_place.xml" value="0.12048192771084337" />
+        <entry key="..\:/Publicc/app/src/main/res/layout/layout_air.xml" value="0.7186311787072244" />
+        <entry key="..\:/Publicc/app/src/main/res/layout/layout_helpline.xml" value="0.1" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_15_PREVIEW" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.18" />
+      </ProjectState>
+    </option>
   </component>
 </project>

@@ -4,37 +4,79 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.TextView;
 
 import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
-import androidx.lifecycle.Observer;
-import androidx.lifecycle.ViewModelProvider;
+import androidx.navigation.Navigation;
 
 import com.example.niftytravelguide.R;
 import com.example.niftytravelguide.databinding.FragmentHomeBinding;
 
+
 public class HomeFragment extends Fragment {
 
-    private HomeViewModel homeViewModel;
+
     private FragmentHomeBinding binding;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        homeViewModel =
-                new ViewModelProvider(this).get(HomeViewModel.class);
+
 
         binding = FragmentHomeBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
-        final TextView textView = binding.textHome;
-        homeViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
-            @Override
-            public void onChanged(@Nullable String s) {
-                textView.setText(s);
+
+        binding.cardViewBus.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Navigation.findNavController(v).navigate(R.id.action_navigation_home_to_hotelFragment);
+
             }
         });
+
+        binding.cardViewAir.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Navigation.findNavController(v).navigate(R.id.action_navigation_home_to_touristPlaceFragment);
+
+            }
+        });
+
+        binding.cardViewHelp.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Navigation.findNavController(v).navigate(R.id.action_navigation_home_to_helpFragment);
+
+            }
+        });
+
+        binding.cardView7.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+
+                Navigation.findNavController(v).navigate(R.id.action_navigation_home_to_busDetailsFragment);
+
+            }
+        });
+        binding.cardViewTourist.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+
+                Navigation.findNavController(v).navigate(R.id.action_navigation_home_to_airFragment);
+
+            }
+        });
+
+        binding.cardViewgps.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Navigation.findNavController(v).navigate(R.id.action_navigation_home_to_mapsFragment);
+               // Navigation.findNavController(v).navigate(R.id.action_navigation_home_to_mapsFragment2);
+
+            }
+        });
+
+        binding.cardView3.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Navigation.findNavController(v).navigate(R.id.action_navigation_home_to_weatherFragment);
+
+            }
+        });
+
         return root;
     }
 

@@ -1,6 +1,27 @@
 <resources>
-    <string name="app_name">NiftyTraveLGuide</string>
+    <string name="app_name">Nifty Travel Guide</string>
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
+
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Enter</string>
+
+    <string name="Click_here_to_register">Register</string>
+    <string name="a_sample_message">A sample message</string>
+    <string name="_9_00_pm">9:00 PM</string>
+    <string name="seen">Seen</string>
+    <string name="personname">PersonName</string>
+
+    <string name="facebook_app_id">957239918554978</string>
+
+
+    <string name="name">Name</string>
+    <string name="register">Register</string>
+    <string name="feed">Feed</string>
+    <string name="messages">Message</string>
+    <string name="profile">Profile</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
